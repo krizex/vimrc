@@ -30,7 +30,9 @@ This is useful to install on remote servers where you don't need many plugins an
 
 ## How to install on Windows?
 
-Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. No special instructions needed ;-)
+Use [msysgit](http://msysgit.github.com/) to checkout the repository and run the installation instructions above. Please notice when you clone the repo, first change dir to your HOME folder, then execute:
+git clone git@github.com:krizex/vimrc.git .vim_runtime
+The rest steps are same to that mentioned.
 
 
 ## How to update to latest version?
